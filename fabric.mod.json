@@ -1,0 +1,21 @@
+{
+    "schemaVersion": 1,
+    "id": "narutomod",
+    "version": "1.0.0",
+    "name": "Naruto Mod",
+    "description": "A Fabric mod for Minecraft 1.21.4 with custom HUD, Kekkei Genkai system, Jutsu items, and Ten-Tails Husk boss.",
+    "authors": ["kennthegeek"],
+    "license": "MIT",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.kennthegeek.narutomod.NarutoMod"
+        ]
+    },
+    "mixins": [],
+    "depends": {
+        "fabricloader": ">=0.14.0",
+        "minecraft": "1.21.4",
+        "fabric-api": "*"
+    }
+}
